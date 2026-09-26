@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DyG Limpieza de Campanas: limpieza de campanas, filtros, fogoneros y motores para cocinas gastronómicas.">
+  <title>DyG Limpieza de Campanas | Servicios gastronómicos</title>
+
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="IMG/logo_color.png" type="image/png"> <!-- quiero que el logo se vea en la barra navegadora epro no sale-->
+  <!-- Fuente de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="encabezado" id="inicio">
+     <img src="IMG/logo_color.png" id=logo alt="Logo DyG color">
+    <div class="contenedor"> 
+      <nav class="navegacion" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#productos">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="portada" aria-labelledby="titulo-principal">
+      <div class="contenedor portada-contenido">
+        <p class="etiqueta">Limpieza profesional para cocinas gastronómicas</p>
+        <h1 id="titulo-principal">Una cocina limpia empieza por una campana en condiciones</h1>
+        <p>
+          En DyG realizamos limpieza de campanas, filtros, fogoneros y motores
+          para restaurantes, bares, hoteles y otros espacios gastronómicos.
+        </p>
+        <a class="boton" href="#contacto">Solicitar información</a>
+      </div>
+    </section>
+
+    <section class="nosotros seccion" id="nosotros" aria-labelledby="titulo-nosotros">
+      <div class="contenedor">
+        <h2 id="titulo-nosotros">Sobre DyG</h2>
+        <p>
+          Somos un servicio especializado en la limpieza de componentes de
+          extracción de cocinas gastronómicas. Trabajamos para ayudar a que
+          los espacios de trabajo se mantengan limpios y cuidados.
+        </p>
+      </div>
+    </section>
+
+    <section class="servicios seccion" id="productos" aria-labelledby="titulo-servicios">
+      <div class="contenedor">
+        <h2 id="titulo-servicios">Nuestros servicios</h2>
+        <p class="introduccion">
+          Soluciones de limpieza para los principales componentes de tu cocina.
+        </p>
+
+        <!-- Estas tarjetas se organizarán con Flexbox desde styles.css -->
+        <div class="lista-tarjetas">
+          <article class="tarjeta">
+            <img src="IMG/cocina.jpeg"
+                 alt="Equipamiento de una cocina gastronómica" loading="lazy">
+            <div class="tarjeta-contenido">
+              <h3>Limpieza de campanas</h3>
+              <p>Limpieza de campanas extractoras de cocinas gastronómicas.</p>
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <img src="IMG/Filtro 2.jpg"
+                 alt="Superficies y equipamiento de cocina" loading="lazy">
+            <div class="tarjeta-contenido">
+              <h3>Limpieza de filtros</h3>
+              <p>Limpieza de filtros que forman parte del sistema de extracción.</p>
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <img src="IMG/logo_color.png"
+                 alt="Equipamiento de cocina profesional" loading="lazy">
+            <div class="tarjeta-contenido">
+              <h3>Limpieza de fogoneros</h3>
+              <p>Servicio de limpieza de fogoneros y sectores de trabajo asociados.</p>
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <img src="IMG/motor.jpeg"
+                 alt="Equipamiento de extracción en una cocina" loading="lazy">
+            <div class="tarjeta-contenido">
+              <h3>Limpieza de motores</h3>
+              <p>Limpieza de motores vinculados al sistema de extracción.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+        
+    <section class="multimedia seccion" aria-labelledby="titulo-galeria">
+      <div class="contenedor">
+        <h2 id="titulo-galeria">Nuestro trabajo</h2>
+        <p>
+          Más adelante podés reemplazar estas imágenes de referencia por fotografías
+          propias de los trabajos realizados.
+        </p>
+        <figure class="imagen-destacada">
+          <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1400&q=80"
+               alt="Vista de una cocina con equipamiento gastronómico" loading="lazy">
+          <figcaption>Equipamiento de cocina gastronómica.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contacto seccion" id="contacto" aria-labelledby="titulo-contacto">
+      <div class="contenedor">
+        <h2 id="titulo-contacto">Contactanos</h2>
+        <p>
+          Completá el formulario para consultar por nuestros servicios.
+          El número de WhatsApp se podrá agregar cuando definamos qué contacto publicar.
+        </p>
+
+        <form class="formulario-contacto" action="#" method="post">
+          <div class="campo">
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+          </div>
+
+          <div class="campo">
+            <label for="negocio">Nombre del comercio</label>
+            <input type="text" id="negocio" name="negocio" autocomplete="organization">
+          </div>
+
+          <div class="campo">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+
+          <div class="campo">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" autocomplete="tel">
+          </div>
+
+          <div class="campo">
+            <label for="servicio">Servicio que necesitás</label>
+            <select id="servicio" name="servicio" required>
+              <option value="">Seleccioná una opción</option>
+              <option value="campanas">Limpieza de campanas</option>
+              <option value="filtros">Limpieza de filtros</option>
+              <option value="fogoneros">Limpieza de fogoneros</option>
+              <option value="motores">Limpieza de motores</option>
+              <option value="varios">Más de un servicio</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contanos qué necesitás"></textarea>
+          </div>
+
+          <button class="boton" type="submit">Enviar consulta</button>
+        </form>
+
+        <p class="nota-formulario">
+          Importante: el formulario es visual por ahora. Para recibir mensajes,
+          habrá que conectarlo a un servicio de formularios o implementar un backend.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie-pagina">
+    <div class="contenedor">
+      <p><strong>DyG Limpieza de Campanas</strong></p>
+      <p>Servicio de limpieza para cocinas gastronómicas.</p>
+      <p><a href="#contacto">Contactanos</a></p>
+      <p class="creador"> 2026 Gisela Iannone. Pre Entrega de Talento.</p>
+    </div>
+  </footer>
+</body>
+</html>
