@@ -1,13 +1,14 @@
 /* Hice este root ya que me parecio inteligete la correccion que me hizo la ia, ya que repeti mucho los comando de color en cada instancia, me dio esta instruccion para poder hacer esto yq ue asi solo utilizar el nombre y matener una linea de prolijidad en el codigo y en la vista de la pagina */
+
 :root {
-  --color-principal: #173b3f;
-  --color-secundario: #2f6b63;
-  --color-acento: #d7a85b;
-  --color-fondo: #f5f7f6;
-  --color-texto: #263238;
-  --color-blanco: #ffffff;
-  --color-borde: #dce4e1;
-  --sombra: 0 8px 24px rgba(23, 59, 63, 0.10);
+  --color-principal: #38245C;
+  --color-secundario: #7042A0;
+  --color-acento: #F05A3C;
+  --color-fondo: #F8F6FA;
+  --color-texto: #292633;
+  --color-blanco: #FFFFFF;
+  --color-borde: #E7E1ED;
+  --sombra: 0 8px 24px rgba(56, 36, 92, 0.10);
 }
 
 * { box-sizing: border-box; }
